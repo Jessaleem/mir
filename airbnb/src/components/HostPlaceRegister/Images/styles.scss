@@ -1,0 +1,124 @@
+@import '../../../sass_styles/_fonts.scss';
+@import '../../../sass_styles/_colors.scss';
+
+.images__space {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 0px;
+  left: 0px;
+  width: 90%;
+  height: 100%;
+  border: 1px dashed rgb(176, 176, 176);
+  border-radius: 10px;
+  padding: 20px 10px;
+}
+
+.img_icon {
+  height: 64px;
+  width: 64px;
+}
+
+.upload__title {
+  font-family: nunito-bold;
+  font-size: 22px;
+}
+
+.upload__description {
+  font-family: nunito-light;
+  font-size: 16px;
+  text-align: center;
+}
+
+.progress5{
+    border-top: 2px solid $pink;
+    position: absolute;
+    left: 0%;
+    right: 40%;
+    top: 0%;
+}
+
+.images__space {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 0px;
+  left: 0px;
+  width: 90%;
+  height: 100%;
+  border: 1px solid rgb(176, 176, 176);
+  border-radius: 10px;
+  padding: 20px 10px;
+}
+
+.img_icon {
+  height: 64px;
+  width: 64px;
+}
+
+.upload__title {
+  font-family: nunito-bold;
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.upload__description {
+  font-family: nunito-extra-light;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 2px ;
+}
+
+.upload__files {
+  margin-bottom: 0px;
+}
+
+.p {
+  color: $pink;
+  font-family: nunito-bold;
+  font-size: 1.2rem;
+}
+
+.select__button-container {
+  position: relative;
+  display: inline-block;
+  &:hover {
+    opacity: .8;
+  }
+}
+
+.select__button-container::before {
+  background-color: $pink;
+  color: white;
+  font-family: nunito-regular;
+  letter-spacing: .7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  content: 'Select you images';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  cursor: pointer;
+}
+
+.select__button-container input[type="file"] {
+  opacity: 0;
+  width: 200px;
+  height: 32px;
+  display: inline-block;
+}
+
+.progress5{
+    border-top: 2px solid $pink;
+    position: absolute;
+    left: 0%;
+    right: 40%;
+    top: 0%;
+}

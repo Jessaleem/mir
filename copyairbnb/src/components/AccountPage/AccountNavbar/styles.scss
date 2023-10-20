@@ -1,0 +1,25 @@
+.navbar__container{
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid rgb(235, 235, 235);
+  transition: -ms-transform 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955) 0s, 
+		-webkit-transform 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955) 0s, 
+		transform 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955) 0s, visibility 0.2s ease 0s  
+}
+.navbar__icons{
+  padding-top: 10px;
+  padding-bottom: 10px;  
+}
+.navbar__buttons{
+  background-color: transparent;
+  border: 0px;
+  cursor: pointer;
+}
+.navbar__icon{
+  height: 24px;
+  width: 24px;
+}
+.navbar__profileIcon{
+  height: 29px;
+  width: 29px;
+}

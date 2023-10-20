@@ -1,0 +1,33 @@
+@import '../../sass_styles/_colors.scss';
+@import '../../sass_styles/_fonts.scss';
+
+.cards-conatiner {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  height: min-content;
+  margin: 0px;
+  padding: 0px;
+  p {
+    display: none;
+    @media (min-width: 760px) {
+      display: initial;
+      width: 100%;
+      font-size: 1.5rem;
+      color: $dark-gray;
+      margin: 0px;
+      margin-left: 25px;
+      font-family: nunito-semi-bold;
+    }
+  }
+}
+
+.loader {
+  border: 10px solid #f3f3f3;
+  border-top: 10px solid #3498db;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  animation: spin 1s linear infinite;
+}

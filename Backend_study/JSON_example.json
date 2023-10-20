@@ -1,0 +1,46 @@
+{
+  "id": "1",
+  "title": "Benalmádena, Spain",
+  "img": "https://res.cloudinary.com/equipo-maravilla/image/upload/v1659662892/images/Spaces/1_qo7afi.webp",
+  "dates": "Oct 1 - 6",
+  "price": "$70 usd",
+  "how many": "5",
+  "adress": {
+    "street": "En medio de las nubes y el sol",
+    "city": "Cartagena",
+    "state": "Atlantico",
+    "zip code": "00000",
+    "country": "Colombia"
+  },
+  "owner": {"id": "1"},
+  "type": {
+    "house": "House",
+    "apartment": "Apartment",
+    "ranch": "Ranch",
+    "bed-and-breakfast": "Bed & Breakfast"
+  },
+  "privacy-type": {
+    "entire-place": "Entire place",
+    "private-room": "Private room",
+    "shared-room": "Shared room"
+  },
+  "amenities": {
+    "beds": "5",
+    "kitchen": [
+      "Kitchen","Hoven", "refrigerator", "Cooking basics", "Dishes and silverware", "Stove", "Rice maker", "Dining table", "Outdoor dining area"
+    ],
+    "bathroom": [
+      "3", "Body soap", "Shampoo", "Toilet paper"
+    ],
+    "bedroom and laudry": [
+      "3", "Towels", "Bed Sheets", "Pilows", "Blankets"
+    ],
+    "facilities": [
+      "Privete pool", "Private hot tub", "Building staff", "BBQ grill"
+    ],
+    "entertaiment": [
+      "Wifi", "TV 75 inches", "Netflix", "Play Station 5"
+    ]
+  },
+  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero sapiente adipisci, possimus harum voluptatem laudantium doloremque dignissimos iste quod veniam exercitationem? Recusandae, quasi excepturi. Sunt architecto fugit dignissimos doloremque corrupti!"
+}
